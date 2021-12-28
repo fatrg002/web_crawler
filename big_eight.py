@@ -17,4 +17,5 @@ if r.status_code == requests.codes.ok:
             data.append([date,value,price])
 df = pd.DataFrame(data,columns=['日期','買賣超金額','台指期'] )
 df.to_csv('big_eight.csv')
-            
+#df.to_excel('big_eight.xlsx')
+#df.to_html('big_eight.html')
