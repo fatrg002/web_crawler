@@ -1,3 +1,6 @@
+
+#爬八大行庫買賣超金額,並存成檔案
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
